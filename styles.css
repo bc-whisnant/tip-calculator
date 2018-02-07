@@ -1,0 +1,32 @@
+.skate-app {
+	margin-top: 25%;
+}
+
+.skate-header {
+	text-align: center;
+}
+.skate-header img {
+	width: 100%;
+	height: auto;
+}
+#tricks-container {
+	text-align: center;
+	clear: both;
+	min-height: 28px;
+}
+h1 {
+	font-size: 1.5em;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+.buttons {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 5%;
+}
+button {
+	height: 35px;
+	border: 1px solid white;
+	border-radius: 10%;
+	font-size: 1em;
+	font-family: 'Gloria Hallelujah', cursive;
+}

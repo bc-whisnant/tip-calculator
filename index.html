@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="css/unsemantic-grid-responsive.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="grid-container tip-calculator-app">
+		<div class="grid-100 tablet-grid-100 mobile-grid-100">	
+
+			<div class="grid-50 prefix-25 suffix-25 tablet-grid-100 mobile-grid-100">
+				<div id="amount-container">
+					<input id="total-amount-text" type="text" placholder="Enter amount before tip here.">
+				</div>
+
+				<div class="buttons">
+					<div class="grid-33">
+						<button id="bad-button">Bad</button> 
+					</div>
+					<div class="grid-33">
+						<button id="good-button">Good</button>
+					</div>
+					<div class="grid-33">
+						<button id="great-button">Great</button>
+					</div>
+				</div>
+
+				<div class="total-amount">
+					<h2 id="tip-amount-text">Your total amount is: <span id="total-amount-span"></span> </h2>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<script src="scripts/tip-calculation.js" type="text/javascript">
+	</script>
+</body>
+</html>

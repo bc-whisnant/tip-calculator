@@ -1,0 +1,56 @@
+.tip-calculator-app {
+	margin-top: 15%;
+}
+
+#amount-container {
+	text-align: center;
+	clear: both;
+	min-height: 28px;
+}
+
+input {
+	width: 100%;
+	height: 35px;
+	text-align: center;
+	font-size: 1.35em;
+}
+
+.buttons {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 5%;
+}
+
+button {
+	height: 35px;
+	border: 1px solid white;
+	border-radius: 10%;
+	font-size: 1em;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.total-amount {
+	margin-top: 10%;
+	text-align: center;
+	font-size: 1em;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: red;
+}
+
+@media screen and (min-width: 400px) and (max-width: 767px) {
+	.tip-calculator-app {
+		margin-top: 38%;
+	}
+
+	button {
+		margin-bottom: 2%;
+	}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.tip-calculator-app {
+		margin-top: 40%;
+	}
+
+}
